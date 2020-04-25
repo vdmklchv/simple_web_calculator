@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main    {
+    width: 340px;
+    height: 500px;
+    background-color: cornsilk;
+}
+
+input   {
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    font-size: 1.9em;
+    font-weight: bold;
+    padding-right: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+button  {
+    width: 25%;
+    height: 90px;
+    margin: 0;
+    padding: 5px;
+    border: none;
+    font-size: 1.4em;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+button:hover    {
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+}
+
+.interaction    {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.double {
+    width: 50%;
+}
+
+.right-elements {
+    color: white;
+    background-color: lightslategrey;
+}
+
+.right-elements:hover {
+    color: grey;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.reset  {
+    color: white;
+    background-color: green;
+}
+
+.reset:hover    {
+    color: green;
+    background-color: white;
+    cursor: pointer;
+}
