@@ -42,7 +42,7 @@ keypadDiv.addEventListener('click', (event) => {
             break;
         case 'multiply':
             if (inputArea.value === '0'){
-                inputArea.value = '*';
+                inputArea.value = '0';
             }
             else if (lastChar === '*' || lastChar === '-' || lastChar === '/' || lastChar === '+')    {
                 let newStr = inputArea.value.slice(0, -1);
@@ -54,7 +54,7 @@ keypadDiv.addEventListener('click', (event) => {
             break;
         case 'divide':
             if (inputArea.value === '0'){
-                inputArea.value = '/';
+                inputArea.value = '0';
             }
             else if (lastChar === '*' || lastChar === '-' || lastChar === '/' || lastChar === '+')    {
                 let newStr = inputArea.value.slice(0, -1);
