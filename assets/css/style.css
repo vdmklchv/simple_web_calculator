@@ -40,6 +40,14 @@ button:hover    {
     cursor: pointer;
 }
 
+button:active   {
+    border: none;
+}
+
+button:focus    {
+    outline:0;
+}
+
 .interaction    {
     display: flex;
     flex-wrap: wrap;
